@@ -219,11 +219,11 @@ export default function AccountsPage() {
 
                   <CardContent className="p-0">
                     {/* Image Section */}
-                    <div className="relative h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
+                    <div className="relative h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center overflow-hidden">
                       <img
                         src={account.img || "/placeholder.svg"}
                         alt={account.name}
-                        className="w-24 h-24 rounded-full object-contain"
+                        className="w-full h-full object-contain"
                       />
                       <div className="absolute bottom-2 left-2 flex space-x-1">
                         <Badge variant="outline" className="bg-gray-900/80 text-white border-gray-600 text-xs">
